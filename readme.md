@@ -30,3 +30,18 @@
 **You will also need to install Anaconda on your machine.**
 
 `https://docs.anaconda.com/anaconda/install/`
+
+### Here's a few notes on what we're using.
+
+**This is from the tutorial in class.**
+
+  ```python
+  import pandas as pd`
+  import numpy as np
+  import matplotlib.pyplot as plt
+
+  #This is just an example of reading a .csv file.
+  df = pd.read_csv('animals.csv', delimiter = ',')
+  df.sort_values(['animal'])
+  df.plot(kind='bar')
+  ```
